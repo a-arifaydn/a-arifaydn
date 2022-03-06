@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Message Form</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="message-form">
+
+  <form action="javascript:void(0);" method="POST">
+
+    <fieldset>
+
+      <header>
+
+        <h3>Send your message!</h3>
+
+      </header>
+
+      <p>
+
+        <textarea name="" id="message" placeholder="Your message goes here..."></textarea>
+
+      </p>
+
+      <footer>
+
+        <p class="clearfix">
+
+          <span id="message-characters">120 characters left.</span>
+          <input type="submit" id="button-send" value="Send">
+
+        </p>
+
+      </footer>
+
+    </fieldset>
+
+  </form>
+
+</div> <!-- end message -->
+<!-- partial -->
+  <script type="module" src="./script.js"></script>
+
+</body>
+</html>
